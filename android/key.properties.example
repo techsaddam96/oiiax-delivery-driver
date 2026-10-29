@@ -1,0 +1,38 @@
+# Release signing for the Blockatie Driver app.
+#
+# Copy this file to `android/key.properties` and fill in the real values. That
+# copy is gitignored, as are *.jks and *.keystore, so nothing here reaches the
+# repository. This example carries placeholders only - never commit a real
+# password, alias or keystore.
+#
+# Without a complete key.properties, a release build fails with an explanatory
+# message rather than falling back to the debug key. Debug and profile builds are
+# unaffected and need none of this.
+#
+# Before creating or replacing a key, confirm the upload certificate that Google
+# Play already expects for com.hero.blockatie. Signing with the wrong key
+# produces an artifact Play rejects, and a lost upload key needs Play's own reset
+# process - it cannot be regenerated locally.
+
+# Path to the keystore.
+#   Absolute:                  C:/secure/blockatie/upload-keystore.jks
+#   Relative to android/:      app/upload-keystore.jks
+#
+# Use FORWARD SLASHES even on Windows. This is a Java .properties file, where a
+# backslash is an escape character: "C:\keys\upload.jks" is read as
+# "C:keysupload.jks" and the keystore is then not found. That failure is safe -
+# the release build stops rather than signing with the wrong thing - but the
+# error will point at a path you did not write, so it is worth avoiding.
+#
+# Keep the keystore outside the repository if you can; if it must live inside, the
+# **/*.jks and **/*.keystore ignore rules already cover it.
+storeFile=REPLACE_WITH_KEYSTORE_PATH
+
+# Password for the keystore file.
+storePassword=REPLACE_WITH_STORE_PASSWORD
+
+# Alias of the key inside the keystore, as Play expects it.
+keyAlias=REPLACE_WITH_KEY_ALIAS
+
+# Password for that key. Often the same as storePassword, but not always.
+keyPassword=REPLACE_WITH_KEY_PASSWORD

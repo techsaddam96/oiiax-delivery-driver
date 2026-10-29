@@ -1,0 +1,11 @@
+# flutter pub run flutter_launcher_icons
+flutter_launcher_icons:
+  image_path: "assets/brand/oiiax/oiiax_launcher_icon.png"
+  image_path_android: "assets/brand/oiiax/oiiax_launcher_icon.png"
+  image_path_ios: "assets/brand/oiiax/oiiax_launcher_icon.png"
+  android: true
+  ios: true
+  min_sdk_android: 21
+  adaptive_icon_background: "#1E1E1E"
+  adaptive_icon_foreground: "assets/brand/oiiax/logos/OIIAX_Icon_Light_Transparent.png"
+  remove_alpha_ios: true

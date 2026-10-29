@@ -1,0 +1,15 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+         Debug builds alone may reach the XAMPP host through Android emulator
+         alias 10.0.2.2. The matching network-security resource permits
+         cleartext only for that exact local address; main/release manifests
+         remain HTTPS-only.
+    -->
+    <application android:networkSecurityConfig="@xml/network_security_config" />
+
+    <!-- The INTERNET permission is required for development. Specifically,
+         the Flutter tool needs it to communicate with the running application
+         to allow setting breakpoints, to provide hot reload, etc.
+    -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>

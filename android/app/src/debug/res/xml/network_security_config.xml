@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     This resource is referenced only by src/debug/AndroidManifest.xml.
+     It permits HTTP only to the Android-emulator alias of the local XAMPP
+     backend. There is deliberately no base-config cleartext override.
+-->
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">10.0.2.2</domain>
+    </domain-config>
+</network-security-config>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "583957975224",
+    "project_id": "notification-system-blockatie",
+    "storage_bucket": "notification-system-blockatie.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583957975224:android:946c2d6cc01dc27313a44d",
+        "android_client_info": {
+          "package_name": "com.blockatie.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClhlNd4BQ9afDwtcjLPJWffcAFV5oa_PE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583957975224:android:9878b1b7b86a94b413a44d",
+        "android_client_info": {
+          "package_name": "com.hero.blockatie"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClhlNd4BQ9afDwtcjLPJWffcAFV5oa_PE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
