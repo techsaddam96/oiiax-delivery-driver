@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyBdEDNdZi2DzkQFcmckGI0dIMpsULK1qkg</string>
+	<string>AIzaSyAXI1ZW3lQsZKJbE2qom8cKJ-PGCuAKU84</string>
 	<key>GCM_SENDER_ID</key>
-	<string>583957975224</string>
+	<string>207550717391</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.example.blockatie</string>
+	<string>com.oiiax.delivery.driver</string>
 	<key>PROJECT_ID</key>
-	<string>notification-system-blockatie</string>
+	<string>oiiax-delivery</string>
 	<key>STORAGE_BUCKET</key>
-	<string>notification-system-blockatie.firebasestorage.app</string>
+	<string>oiiax-delivery.firebasestorage.app</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:583957975224:ios:d7fab4e991f8494013a44d</string>
+	<string>1:207550717391:ios:cc3d518dd1c5ec051e06ba</string>
 </dict>
 </plist>

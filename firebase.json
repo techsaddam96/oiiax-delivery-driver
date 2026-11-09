@@ -1,1 +1,22 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"notification-system-blockatie","appId":"1:583957975224:android:9878b1b7b86a94b413a44d","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"notification-system-blockatie","configurations":{"android":"1:583957975224:android:9878b1b7b86a94b413a44d","ios":"1:583957975224:ios:2c53b96ec20dfeb313a44d"}}}}}}
+{
+    "flutter":  {
+                    "platforms":  {
+                                      "android":  {
+                                                      "default":  {
+                                                                      "projectId":  "oiiax-delivery",
+                                                                      "appId":  "1:207550717391:android:0028162da77a64fc1e06ba",
+                                                                      "fileOutput":  "android/app/google-services.json"
+                                                                  }
+                                                  },
+                                      "dart":  {
+                                                   "lib/firebase_options.dart":  {
+                                                                                     "projectId":  "oiiax-delivery",
+                                                                                     "configurations":  {
+                                                                                                            "android":  "1:207550717391:android:0028162da77a64fc1e06ba",
+                                                                                                            "ios":  "1:207550717391:ios:cc3d518dd1c5ec051e06ba"
+                                                                                                        }
+                                                                                 }
+                                               }
+                                  }
+                }
+}

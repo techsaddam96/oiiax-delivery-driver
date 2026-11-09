@@ -50,19 +50,19 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyClhlNd4BQ9afDwtcjLPJWffcAFV5oa_PE',
-    appId: '1:583957975224:android:9878b1b7b86a94b413a44d',
-    messagingSenderId: '583957975224',
-    projectId: 'notification-system-blockatie',
-    storageBucket: 'notification-system-blockatie.firebasestorage.app',
+    apiKey: 'AIzaSyAkOW7J2Izp99cOkR8_rn-FHQ-pX_w_IFg',
+    appId: '1:207550717391:android:0028162da77a64fc1e06ba',
+    messagingSenderId: '207550717391',
+    projectId: 'oiiax-delivery',
+    storageBucket: 'oiiax-delivery.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBdEDNdZi2DzkQFcmckGI0dIMpsULK1qkg',
-    appId: '1:583957975224:ios:2c53b96ec20dfeb313a44d',
-    messagingSenderId: '583957975224',
-    projectId: 'notification-system-blockatie',
-    storageBucket: 'notification-system-blockatie.firebasestorage.app',
-    iosBundleId: 'com.hero.blockatie',
+    apiKey: 'AIzaSyAXI1ZW3lQsZKJbE2qom8cKJ-PGCuAKU84',
+    appId: '1:207550717391:ios:cc3d518dd1c5ec051e06ba',
+    messagingSenderId: '207550717391',
+    projectId: 'oiiax-delivery',
+    storageBucket: 'oiiax-delivery.firebasestorage.app',
+    iosBundleId: 'com.oiiax.delivery.driver',
   );
 }

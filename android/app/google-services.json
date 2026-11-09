@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "583957975224",
-    "project_id": "notification-system-blockatie",
-    "storage_bucket": "notification-system-blockatie.firebasestorage.app"
+    "project_number": "207550717391",
+    "project_id": "oiiax-delivery",
+    "storage_bucket": "oiiax-delivery.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:583957975224:android:946c2d6cc01dc27313a44d",
+        "mobilesdk_app_id": "1:207550717391:android:3f539d27b253dd8f1e06ba",
         "android_client_info": {
-          "package_name": "com.blockatie.app"
+          "package_name": "com.oiiax.delivery.client"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyClhlNd4BQ9afDwtcjLPJWffcAFV5oa_PE"
+          "current_key": "AIzaSyAkOW7J2Izp99cOkR8_rn-FHQ-pX_w_IFg"
         }
       ],
       "services": {
@@ -26,15 +26,15 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:583957975224:android:9878b1b7b86a94b413a44d",
+        "mobilesdk_app_id": "1:207550717391:android:0028162da77a64fc1e06ba",
         "android_client_info": {
-          "package_name": "com.hero.blockatie"
+          "package_name": "com.oiiax.delivery.driver"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyClhlNd4BQ9afDwtcjLPJWffcAFV5oa_PE"
+          "current_key": "AIzaSyAkOW7J2Izp99cOkR8_rn-FHQ-pX_w_IFg"
         }
       ],
       "services": {

@@ -124,7 +124,7 @@ if (releaseRequested && mapsApiKey == null) {
 }
 
 android {
-    namespace = "com.hero.blockatie"
+    namespace = "com.oiiax.delivery.driver"
     compileSdk = 36
     ndkVersion = flutter.ndkVersion
 
@@ -140,11 +140,11 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.hero.blockatie"
+        applicationId = "com.oiiax.delivery.driver"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
-        targetSdk = 35
+        targetSdk = 36
         versionCode = flutter.versionCode
         versionName = flutter.versionName
         manifestPlaceholders["MAPS_API_KEY"] = mapsApiKey.orEmpty()
