@@ -29,7 +29,7 @@ class AppUrls {
 
   static const String baseUrl = String.fromEnvironment(
     'API_BASE_URL',
-    defaultValue: 'https://dashboard.blockatie.com/services',
+    defaultValue: 'https://demo.blockatie.com/services',
   );
   static const String driverlogin = '$baseUrl/api_driver_login.php';
 

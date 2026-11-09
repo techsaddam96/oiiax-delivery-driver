@@ -110,7 +110,10 @@ class LoginProvider extends UserScopedNotifier {
             'Accept-Language': languageCode,
           },
         ),
-        data: {'phone': _normalizedPhone, 'password': passCont.text.trim()},
+        // Passwords must travel exactly as entered. In particular, legacy
+        // accounts can have a leading or trailing space in their stored hash;
+        // trimming here turns a correct password into a different one.
+        data: {'phone': _normalizedPhone, 'password': passCont.text},
       );
 
       final body = response.data;

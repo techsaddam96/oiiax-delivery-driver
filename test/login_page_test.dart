@@ -462,6 +462,21 @@ void main() {
       expect(adapter.seen!.uri.toString(), startsWith(AppUrls.driverlogin));
     });
 
+    test('password is sent exactly as entered', () async {
+      final adapter = _StubAdapter({
+        'success': false,
+        'code': 'INVALID_CREDENTIALS',
+        'message_en': 'Invalid phone number or password',
+      });
+      final provider = _providerWith(adapter);
+      provider.phoneCont.text = '0791234567';
+      provider.passCont.text = ' LegacyPass12 ';
+
+      await provider.logIn();
+
+      expect((adapter.seen!.data as Map<String, dynamic>)['password'], ' LegacyPass12 ');
+    });
+
     test('27. a malformed body is reported without leaking it', () async {
       final adapter = _StubAdapter({'unexpected': 1});
       final provider = _providerWith(adapter);

@@ -118,6 +118,10 @@ Map<String, dynamic> _details({
 
 void main() {
   group('release gating', () {
+    test('the demo services host is the default API environment', () {
+      expect(AppUrls.baseUrl, 'https://demo.blockatie.com/services');
+    });
+
     test('Tours stay hidden unless the build activates them', () {
       expect(AppUrls.driverToursEnabled, isFalse);
     });
@@ -127,12 +131,10 @@ void main() {
       final tours = Uri.parse(AppUrls.driverTours);
       expect(tours.origin, services.origin);
       expect(tours.path, '/modules/driver_tours/api/driver_tours.php');
-      if (AppUrls.baseUrl == 'https://dashboard.blockatie.com/services') {
-        expect(
-          AppUrls.driverTours,
-          'https://dashboard.blockatie.com/modules/driver_tours/api/driver_tours.php',
-        );
-      }
+      expect(
+        AppUrls.driverTours,
+        '${services.origin}/modules/driver_tours/api/driver_tours.php',
+      );
     });
   });
 
